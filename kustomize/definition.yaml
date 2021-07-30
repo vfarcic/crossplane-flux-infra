@@ -1,13 +1,13 @@
 apiVersion: apiextensions.crossplane.io/v1
 kind: CompositeResourceDefinition
 metadata:
-  name: compositeclusters.devopstoolkitseries.com
+  name: compositeclusters.demo.upbound.io
 spec:
   connectionSecretKeys:
   - kubeconfig
   defaultCompositionRef:
     name: cluster-google
-  group: devopstoolkitseries.com
+  group: demo.upbound.io
   names:
     kind: CompositeCluster
     plural: compositeclusters
